@@ -37,6 +37,7 @@ while($row = $appointments->fetch_assoc()){
         var d    = date.getDate(),
             m    = date.getMonth(),
             y    = date.getFullYear()
+
         var Calendar = FullCalendar.Calendar;
 
         calendar = new Calendar(document.getElementById('appointmentCalendar'), {

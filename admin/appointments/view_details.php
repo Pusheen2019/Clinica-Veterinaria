@@ -77,7 +77,7 @@ $service = (empty($service)) ? "N/A" : $service;
                                                     <td class="py-1 px-2 text-right"><?= ucwords($owner_name) ?></td>
                                                 </tr>
                                                 <tr class="border-info">
-                                                    <th class="py-1 px-2 text-light bg-gradient-info">Telefone</th>
+                                                    <th class="py-1 px-2 text-light bg-gradient-info">Horario</th>
                                                     <td class="py-1 px-2 text-right"><?= ($contact) ?></td>
                                                 </tr>
                                                 <tr class="border-info">

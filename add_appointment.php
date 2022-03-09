@@ -20,8 +20,8 @@ $schedule = $_GET['schedule'];
                         <input type="text" name="owner_name" id="owner_name" class="form-control form-control-border" placeholder="John D Smith" value ="<?php echo isset($owner_name) ? $owner_name : '' ?>" required>
                     </div>
                     <div class="form-group">
-                        <label for="contact" class="control-label">Telefone</label>
-                        <input type="text" name="contact" id="contact" class="form-control form-control-border" placeholder="09xxxxxxxx" value ="<?php echo isset($contact) ? $contact : '' ?>" required>
+                        <label for="contact" class="control-label">Horas</label>
+                        <input type="time" name="contact" id="contact" class="form-control form-control-border" value ="<?php echo isset($contact) ? $contact : '' ?>" required>
                     </div>
                     <div class="form-group">
                         <label for="email" class="control-label">Email</label>
